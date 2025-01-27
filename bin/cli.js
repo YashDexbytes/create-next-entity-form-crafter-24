@@ -92,7 +92,6 @@ const packageTemplate = {
         "prettier-plugin-tailwindcss": "^0.5.11",
         "tailwindcss": "^3.4.9",
         "typescript": "^5.0",
-        "rimraf": "^5.0.5"
     }
 };
 
