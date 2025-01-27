@@ -33,8 +33,7 @@ const packageTemplate = {
         "lint": "next lint",
         "lint:fix": "eslint . --fix",
         "format": "prettier --write .",
-        "format:check": "prettier --check .",
-        "postinstall": "rimraf bin"
+        "format:check": "prettier --check ."
     },
     dependencies: {
         "@aws-sdk/client-s3": "^3.645.0",
