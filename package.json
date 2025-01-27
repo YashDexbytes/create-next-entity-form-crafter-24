@@ -1,6 +1,6 @@
 {
   "name": "create-next-entity-form-crafter-24",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "CLI to create a new Next.js project with Entity Form Crafter",
   "author": "YashDexbytes",
   "license": "ISC",
@@ -28,8 +28,7 @@
     "format:check": "prettier --check ."
   },
   "bin": {
-    "create-next-entity-form-crafter-24-1": "./bin/cli.js",
-    "create-next-entity-form-crafter-24": "./cmd/index.js"
+    "create-next-entity-form-crafter-24": "./bin/cli.js"
   },
   "files": [
     "bin"
