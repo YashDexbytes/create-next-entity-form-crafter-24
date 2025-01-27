@@ -101,10 +101,9 @@ try {
     
     // Clone the repository to temp directory
     console.log('Cloning the repository...');
-    execSync(`git clone https://github.com/YashDexbytes/efc-package-24-v14.git "${tempDir}"`);
+    execSync(`git clone https://github.com/YashDexbytes/create-next-entity-form-crafter-24.git "${tempDir}"`);
 
-    // Move the contents from efc-package directory to the target directory
-    const sourceDir = path.join(tempDir, 'efc-package');
+    const sourceDir = path.join(tempDir);
     fs.mkdirSync(projectPath);
     
     // Copy all files from source to project directory
