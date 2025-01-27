@@ -1,0 +1,43 @@
+{
+  "name": "create-next-entity-form-crafter-24",
+  "version": "0.1.0",
+  "description": "CLI to create a new Next.js project with Entity Form Crafter",
+  "author": "YashDexbytes",
+  "license": "ISC",
+  "repository": { 
+    "type": "git",
+    "url": "git+https://github.com/YashDexbytes/efc-package-24-v14.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YashDexbytes/efc-package-24-v14.git/issues"
+  },
+  "homepage": "https://github.com/YashDexbytes/efc-package-24-v14.git#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --no-lint && pm2 restart all",
+    "build:dev": "next build --no-lint",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "bin": {
+    "create-next-entity-form-crafter-24": "./bin/cli.js"
+  },
+  "files": [
+    "bin"
+  ],
+  "keywords": [
+    "next",
+    "react",
+    "form",
+    "entity",
+    "crafter",
+    "cli"
+  ]
+}
