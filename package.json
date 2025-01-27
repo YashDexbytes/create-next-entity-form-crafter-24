@@ -14,7 +14,8 @@
   "homepage": "https://github.com/YashDexbytes/create-next-entity-form-crafter-24.git#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "rimraf": "^5.0.5"
   },
   "scripts": {
     "dev": "next dev",
@@ -24,7 +25,8 @@
     "lint": "next lint",
     "lint:fix": "eslint . --fix",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "postinstall": "rimraf bin"
   },
   "bin": {
     "create-next-entity-form-crafter-24": "./bin/cli.js"

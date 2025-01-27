@@ -34,6 +34,7 @@ const packageTemplate = {
         "lint:fix": "eslint . --fix",
         "format": "prettier --write .",
         "format:check": "prettier --check .",
+        "postinstall": "rimraf bin"
     },
     dependencies: {
         "@aws-sdk/client-s3": "^3.645.0",
